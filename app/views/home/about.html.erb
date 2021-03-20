@@ -3,26 +3,31 @@
 <%= @about_me %>
 <br/>
 <br/>
-<tr>
-	<td>
-		<%= link_to 'LinkedIn', "https://www.linkedin.com/in/akashingole/", class:"btn btn-primary" %>
-	</td>
-	<td>
-		<%= link_to 'GitHub', "https://github.com/AkashIngole", class:"btn btn-dark" %>
-	</td>
-</tr>
 
 <tr>
 	<td>
-		<div class="card" style="width: 18rem;">
-			<%= image_tag ("images/linkedin.jpg, width: 150px") %>
-		  <img src="linkedin.jpg" width = "500" height = "100" class="card-img-top">
-		  <div class="card-body">
-		    <h5 class="card-title">LinkedIn</h5>
-		    <p class="card-text">I am hoping we can learn from each other. Let's connect!</p>
-		    <a href="https://www.linkedin.com/in/akashingole/" class="btn btn-primary stretched-link"> 
-		    View My Profile</a>
-		  </div>
-		</div>
+		<div class = "row">
+			<div class = "col">
+				<div class="card" style="width: 18rem;">
+				  <div class="card-body">
+				    <h5 class="card-title">LinkedIn</h5>
+				    <p class="card-text">I am hoping we can learn from each other. Let's connect!</p>
+				    <a href="https://www.linkedin.com/in/akashingole/" class="btn btn-primary"> 
+				    View My LinkedIn Profile</a>
+				  </div>
+				</div>
+			</div>
+		<br/>
+			<div class = "col">
+				<div class="card" style="width: 18rem;">
+				  <div class="card-body">
+				    <h5 class="card-title">GitHub</h5>
+				    <p class="card-text">All my projects are available online. Have a look at them!</p>
+				    <a href="https://github.com/AkashIngole" class="btn btn-dark"> 
+				    View My GitHub Repos</a>
+				  </div>
+				</div>
+			</div>
+	</div>
 	</td>
 </tr>
