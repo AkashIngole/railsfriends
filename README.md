@@ -3,6 +3,7 @@
 Hello, my name is Akash Ingole.
 
 This is my Ruby on Rails Friends List App!
+You may view the working app at https://myrubyfriends.herokuapp.com/
 
 You can connect me at https://www.linkedin.com/in/akashingole/
 
