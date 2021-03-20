@@ -1,4 +1,10 @@
-# README
+# Friends List App
+
+Hello, my name is Akash Ingole.
+
+This is my Ruby on Rails Friends List App!
+
+You can connect me at https://www.linkedin.com/in/akashingole/
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
