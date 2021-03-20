@@ -20,6 +20,7 @@ Things you may want to cover:
 * Database creation
 
 * Database initialization
+Database is changed from SQLite3 to PostgreSQL because SQLite is not production-ready.
 
 * How to run the test suite
 
