@@ -1,3 +1,28 @@
-<h1> About Us...</h1>
+<h1> About Me...</h1>
 
 <%= @about_me %>
+<br/>
+<br/>
+<tr>
+	<td>
+		<%= link_to 'LinkedIn', "https://www.linkedin.com/in/akashingole/", class:"btn btn-primary" %>
+	</td>
+	<td>
+		<%= link_to 'GitHub', "https://github.com/AkashIngole", class:"btn btn-dark" %>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<div class="card" style="width: 18rem;">
+			<%= image_tag ("images/linkedin.jpg, width: 150px") %>
+		  <img src="linkedin.jpg" width = "500" height = "100" class="card-img-top">
+		  <div class="card-body">
+		    <h5 class="card-title">LinkedIn</h5>
+		    <p class="card-text">I am hoping we can learn from each other. Let's connect!</p>
+		    <a href="https://www.linkedin.com/in/akashingole/" class="btn btn-primary stretched-link"> 
+		    View My Profile</a>
+		  </div>
+		</div>
+	</td>
+</tr>
